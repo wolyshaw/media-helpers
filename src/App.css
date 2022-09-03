@@ -1,0 +1,17 @@
+.app {
+  @apply bg-[#171717] min-h-screen text-white font-mono font-medium text-base px-5 pt-7;
+}
+
+.media-form{
+  @apply flex;
+}
+
+.hidden-file-input{
+  @apply opacity-0 w-0 h-0;
+}
+
+.media-label{
+  @apply w-full py-3 px-4 rounded-lg text-white/[0.3];
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px dashed rgba(255, 255, 255, 0.12);
+}
